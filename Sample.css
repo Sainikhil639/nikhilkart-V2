@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bottom-section-card {
+    text-align: center;
+	cursor: pointer;
+    height: 20vh;
+}
+.slides{
+    height: 40vh;
+	cursor: pointer;
+}
+#Header {
+    background-color: Red;     
+}
+.Header {
+    background-color: rgba(255, 0, 0, 0.925);     
+}
+
+.bottom-info {
+    width:100vw;
+}
+.title {
+    color: white;
+    font-family: Bree Serif;
+}
+.para {
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+}
+.card-display-1{
+    text-align: center;
+    cursor: pointer;
+}
+.button {
+    background-color: #ffffff;
+    border-width: 0px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 13px;
+    margin: 20px;
+}
+.align {
+    text-align: center;
+}
+.sample{
+    font-family: roboto;
+    font-size: 50px;
+    color: red;
+    background-color: yellow;
+}
+.body-close{
+    background-image: url("https://img.freepik.com/free-photo/white-simple-textured-design-background_53876-102423.jpg?w=740&t=st=1661159159~exp=1661159759~hmac=8295437d0a653cdbdac6c28c809753e2339fddd6fc5026037515def00f252dcb");
+}
+.about-image{
+    width:58px;
+    height:58px;
+    border-radius: 150%; 
+}   
+.copyright-txt{
+    color:#ffffff;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+}
+.about-section{
+    text-align: center;
+}
+.about-para{
+    color: #e6dbdb;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-para-link{
+    color: #e6dbdb;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.about-para-nikhil{
+    color: #e6dbdb;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.about-para-nikhil:hover{
+    color: #fd0000;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.about-bg{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.about-bg:hover{
+    background-color: rgb(0, 0, 0);
+}
+.bg-grocery{
+    background-color: yellow;
+}

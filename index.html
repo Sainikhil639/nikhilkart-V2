@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nikhilkart</title>
+    <link rel="stylesheet" href="Sample.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div id="Header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h1 class="title ml-4" style="cursor: pointer; width: 15%;"onclick="display('sectionHome')">Nikhilkart </h1>  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto ">
+                    <button class="btn btn-danger mt-1 mr-2" onclick="display('sectionHome')">Home </button>
+                    <button class="btn btn-danger mt-1 mr-2" onclick="display('sectionOrder')">Orders</button>
+                    <button class="btn btn-danger mt-1 mr-2" onclick="display('sectionAbout')">About</button>
+                    <button class="btn btn-danger mt-1 mr-3" onclick="display('sectionSignin')">Signup</button>
+                    <span class="pt-3 text-white">V 2.0</span>
+                </div>
+            </div>   
+        </nav>
+    </div>
+ 
+    <div class="body">
+
+        <div id="sectionHome" >
+            <div class="bottom-info">
+                <div class="Container">
+                    <div class="row"> 
+                        <div class="col-6 col-md-4 col-lg-2 bottom-section-card" onclick="display('sectionOfferzone')" >
+                            <img title="Upto 80%" src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" style="height:13vh;" />
+                            <p class="para ">Offer Zone</p>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2  bottom-section-card" onclick="display('sectionGrocery')">
+                            <img title="Food, Snaks & More" src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" style="height:13vh;"/>
+                            <p class="para ">Grocery</p>
+                        </div>
+                        <div class="col-6  col-md-4 col-lg-2 bottom-section-card" onclick="display('sectionProgress')">
+                            <img title="Nothing One Phone Sale Live" src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100"  style="height:13vh;"/>
+                            <p class="para ">Mobiles</p>
+                        </div>
+                        <div class="col-6  col-md-4 col-lg-2 bottom-section-card" onclick="display('sectionPractice')">
+                            <img title="Laptops, Headphones, Storage disks & More" src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" style="height:13vh;" />
+                            <p class="para ">Electronics</p>
+                        </div>
+                        <div class=" col-6 col-md-4 col-lg-2 bottom-section-card" onclick="display('sectionProgress')">
+                            <img title="Upto 30%+10% Extra" src="https://rukminim1.flixcart.com/flap/128/128/image/c12afc017e6f24cb.png?q=100"  style="height:13vh;"/>
+                            <p class="para ">Fashion</p>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 bottom-section-card" onclick="display('sectionProgress')">
+                            <img title="Toys,Baby Care & More" src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100"  style="height:13vh;"/>
+                            <p class="para ">Kids</p>
+                        </div>
+                    </div>	
+                </div>
+                <div id="carouselhome" class="carousel slide" data-ride="carousel" >
+                    <div class="carousel-inner">
+                        <div class=" slides carousel-item active" data-interval="2000">
+                        <img onclick="display('sectionProgress')" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/August2022GW/Shoes_FabFeetFest/ATF/au-pc-1_3000xx._CB629464433_.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class=" slides carousel-item" data-interval="2000">
+                        <img onclick="display('sectionProgress')" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/pc/acc/days/aug/gw/DesktopHero_Template_3000x1200_ACC_Days._CB629249256_.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="slides carousel-item" data-interval="2000">
+                        <img onclick="display('sectionProgress')" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Laptops/P67171387_IN_PC_Laptops-hp_victus_GW_BAU__24_june_3000x1200._CB629508921_.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselhome" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselhome" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>      	
+            </div>
+        </div>
+
+        <div id="sectionOrder">
+            <div class="sample p-3">
+                <h1 >Order Page</h1>
+                <p> Still in Progress</p>
+                <div class="progress ">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                </div>
+                <button class="btn btn-dark" onclick="display('sectionHome')">Back</button>	       
+            </div>
+        </div>
+
+        <div id="sectionAbout" >
+            <div class="p-3 about-bg">
+                <hr/><h1 class="title align" style="color:lightgreen">About Us</h1> <hr/>
+                <p class="about-para">We are maximisers. We're out on our own journeys to maximise - be the best at what we choose and care about the most - whether it be our impact, voice, potential, ideas, influence, well-being or more. Because when we maximise ourselves in our inclusive teams, <a class="about-para-link" href="#sectionHome" target="_blank" title="Nikhilkart">Nikhilkart</a> is able to deliver the best imaginable value for our customers, stakeholders and the planet!</p>    
+                <div class="about-section d-flex flex-row justify-content-center " >
+                    <div class="p-3">
+                        <a  target="_blank"  class="about-para" href="https://www.facebook.com/sai.nikhil.3304">
+                        <img   title="Facebook" src="https://img.freepik.com/free-vector/modern-facebook-icon-design_1035-8955.jpg?w=740&t=st=1661175036~exp=1661175636~hmac=9d97d50271833ed590dbb58ef2ac3fa06c1d593aa5013c3920525359685f2f4d" class="about-image"/>
+                        <p >Facebook</p> 
+                    </a> 
+                    </div>   
+                    <div class="p-3">
+                        <a target="_blank"  class="about-para" href="mailto:sainikhil063@gmail.com">
+                        <img  title="email" src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" class="about-image"/>
+                        <p >Mail</p> 
+                    </a> 
+                    </div >
+                    <div class="p-3">
+                        <a target="_blank"  class="about-para" href="https://www.linkedin.com/in/sai-nikhil-898060175/">
+                        <img  title="Linkdin" src="https://img.freepik.com/free-photo/3d-realistic-isolated-isometric-linkedin-icon_125540-2040.jpg?size=338&ext=jpg&ga=GA1.2.360989385.1659632230" class="about-image" />
+                        <p >Linkdin</p> 
+                    </a> 
+                    </div>
+                </div> 
+                <div  class="d-flex flex-row justify-content-end" >
+                    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg"> 
+                </div>
+                <p class="copyright-txt">© All Rights Reserved | Powered by <a target="_blank"  class="about-para-nikhil" href="https://about.me/sainikhil">Nikhil</a></p>       
+            </div>
+            <div class="wcu-section pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="wcu-section-heading">Why Choose Us?</h1>
+                            <p class="wcu-section-description">
+                                We Assured original and classic versions of famous
+                                items.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="wcu-card p-3 mb-3">
+                                <img
+                                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png"
+                                class="wcu-card-image"
+                                />
+                                <h1 class="wcu-card-title mt-3">Service</h1>
+                                <p class="wcu-card-description">
+                                Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="wcu-card p-3 mb-3">
+                                <img
+                                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/offers-img.png"
+                                class="wcu-card-image"
+                                />
+                                <h1 class="wcu-card-title mt-3">Best Offers</h1>
+                                <p class="wcu-card-description">
+                                Food Coupons & Offers upto
+                                <span class="offers">50% OFF</span>
+                                and Exclusive Promo Codes on All Online Food Orders.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sectionSignin">
+            <div class="sample p-3">
+                <h1 >Sign-in Page</h1>
+                <p> Still in Progress</p>
+                <div class="progress ">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                </div>
+                <button class="btn btn-dark" onclick="display('sectionHome')">Back</button>	
+            </div>
+        </div> 
+
+        <div id="sectionOfferzone">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow "  onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">A</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow"  onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">B</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow" onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">C</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow" onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">D</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow" onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">E</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow" onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">F</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow" onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">G</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow" onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">H</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow" onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">I</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow" onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">J</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow" onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">K</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="card-display-1 col-6 col-md-3 col-xl-2 shadow" onclick="display('sectionProgress')">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                        <h1 class="card-display-1-heading">L</h1>
+                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                    </div>
+                    <div class="m-auto">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination m-2 shadow">
+                                <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" onclick="display('sectionOfferzone')">1</a></li>
+                                <li class="page-item"><a class="page-link" onclick="display('sectionProgress')">2</a></li>
+                                <li class="page-item"><a class="page-link" onclick="display('sectionProgress')">3</a></li>
+                                <li class="page-item">
+                                <a class="page-link" onclick="display('sectionProgress')"">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    
+        <div id="sectionGrocery">
+            <div class="container-fluid">
+                <div class="row mt-1"> 
+                    <div class="d-none d-md-block Header">
+                    
+                        <h1 class="about-para text-white text-center mt-3">Filters</h1>
+                        <ul class="text-white pr-3" style="cursor: pointer;">
+                            <li>Food</li>
+                            <li>chips</li>
+                            <li>Chocolates</li>
+                            <li>Cool Drinks</li>
+                            <li>Vegitabels</li>
+                            <li>Fruits</li>
+                            <li>Cooking Essentials</li>
+                            <li>Bevarages</li>
+                            <li>Snaks</li>
+                            <li>Cleaning Items</li>
+                            <li>Food</li>
+                            <li>chips</li>
+                            <li>Chocolates</li>
+                            <li>Cool Drinks</li>
+                            <li>Vegitabels</li>
+                            <li>Fruits</li>
+                            <li>Cooking Essentials</li>
+                            <li>Bevarages</li>
+                            <li>Snaks</li>
+                            <li>Cleaning Items</li>
+                            <li>Food</li>
+                            <li>chips</li>
+                            <li>Chocolates</li>
+                            <li>Cool Drinks</li>
+                            <li>Vegitabels</li>
+                            <li>Fruits</li>
+                            <li>Cooking Essentials</li>
+                            <li>Bevarages</li>
+                            <li>Snaks</li>
+                            <li>Cleaning Items</li>
+                        </ul>  
+                    </div> 
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1  shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">A</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1  shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">B</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1  shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">C</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1  shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">D</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">E</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">F</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">G</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">H</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">I</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">J</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">K</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">L</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">M</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">N</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2">
+                                <div class="card-display-1 shadow">
+                                    <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                    <h1 class="card-display-1-heading">O</h1>
+                                    <p class="card-display-1-para">Upto 80% OFF</p> 
+                                </div>
+                            </div> 
+                        </div>
+                    </div>                              
+                </div>
+            </div>          
+        </div>
+
+        <div id="sectionProgress">
+            <div class="sample p-3">
+                <p>This Page<br/> Still in Progress</p>
+                <div class="progress ">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 25%; background-color: rgba(233, 27, 27, 0.842);"></div>
+                </div>
+                <button class="btn btn-dark" onclick="display('sectionHome')">Back</button>	
+            </div>
+        </div></div>
+
+        <div id="sectionPractice">
+            <div class="container-fluid">
+                <div class="row mt-1"> 
+                    <div class="Header">
+                        <nav class="navbar navbar-light mt-1 mr-3  navbar-expand-md"">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMark" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse col-12" id="navbarNavAltMark">
+                                <nav class="nav nav-pills flex-column">
+                                <a class="about-para text-white" href="#item-1">Item 1</a>
+                                <nav class="nav nav-pills flex-column">
+                                    <a class="about-para ml-3 my-1" href="#item-1-1">Item 1-1</a>
+                                    <a class="about-para ml-3 my-1" href="#item-1-2">Item 1-2</a>
+                                </nav>
+                                <a class="about-para" href="#item-2">Item 2</a>
+                                <a class="about-para" href="#item-3">Item 3</a>
+                                <a class="about-para" href="#item-4">Item 4</a>
+                                <a class="about-para" href="#item-5">Item 5</a>        
+                                <a class="about-para" href="#item-6">Item 6</a>    
+                            </div>    
+                        </nav>
+                    </div> 
+                    <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1  shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">A</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1  shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">B</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1  shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">C</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1  shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">D</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">E</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">F</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">G</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">H</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">I</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">J</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">K</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">L</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">M</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">N</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="card-display-1 shadow">
+                                        <img src="https://rukminim1.flixcart.com/image/150/150/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"/>
+                                        <h1 class="card-display-1-heading">O</h1>
+                                        <p class="card-display-1-para">Upto 80% OFF</p> 
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>                              
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>
